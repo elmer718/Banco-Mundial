@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    text-align: center;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.btn-primary {
+    border-radius: 10px 0 10px 0;
+}
+
+.btnRe {
+    border-radius: 0 0 0 10px;
+}
+
+.btnCa {
+    border-radius: 0 10px 0 0;
+}
+
+.btnCo {
+    border-radius: 0 0 0 10px;
+}
+
+.btnOt {
+    border-radius: 0 10px 0 0;
+}
+
+.btnCancelar {
+    border-radius: 0 10px 0 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opciones {
+}
