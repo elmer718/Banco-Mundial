@@ -35,8 +35,16 @@ button a {
 .info {
     display: flex;
     align-items: center;
+}
+.row{
     justify-content: center;
 }
-
 .opciones {
+    
+}
+.btn-izq {
+    display: grid;
+}
+.btn-der {
+    display: grid;
 }
