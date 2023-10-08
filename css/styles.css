@@ -1,7 +1,9 @@
 body {
     display: flex;
     text-align: center;
+    margin-top: 20px;
 }
+
 button a {
     text-decoration: none;
     color: #fff;
@@ -13,7 +15,7 @@ button a:hover {
     color: #fff;
 }
 
-.btn-primary {
+.btn-general {
     border-radius: 10px 0 10px 0;
 }
 
@@ -47,12 +49,19 @@ button a:hover {
 .row{
     flex-direction: column;
 }
-.opciones {
-    
-}
-.btn-izq {
+
+.div-izq {
     display: grid;
 }
-.btn-der {
+
+.div-der {
     display: grid;
+}
+
+#valor {
+    border-color: black;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
