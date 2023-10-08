@@ -8,36 +8,44 @@ button a {
     display: block;
 }
 
+button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 .btn-primary {
     border-radius: 10px 0 10px 0;
 }
 
-.btnRe {
-    border-radius: 0 0 0 10px;
+.btn-izq {
+    border-radius: 0 0 0 20px;
+    width: 200px;
+    text-align: start;
 }
 
-.btnCa {
+.btn-der {
     border-radius: 0 10px 0 0;
-}
-
-.btnCo {
-    border-radius: 0 0 0 10px;
-}
-
-.btnOt {
-    border-radius: 0 10px 0 0;
-}
-
-.btnCancelar {
-    border-radius: 0 10px 0 0;
+    width: 200px;
+    text-align: end;
 }
 
 .info {
     display: flex;
     align-items: center;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
 }
+
+.info img {
+    width: auto;
+    height: 110px;
+    padding-right: 20px;
+}
+
 .row{
-    justify-content: center;
+    flex-direction: column;
 }
 .opciones {
     
