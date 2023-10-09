@@ -16,7 +16,7 @@ button a:hover {
 }
 
 .btn-general {
-    border-radius: 10px 0 10px 0;
+    border-radius: 20px 0 20px 0;
 }
 
 .btn-izq {
@@ -26,7 +26,7 @@ button a:hover {
 }
 
 .btn-der {
-    border-radius: 0 10px 0 0;
+    border-radius: 0 20px 0 0;
     width: 200px;
     text-align: end;
 }
@@ -64,4 +64,22 @@ button a:hover {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.panel-num{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+
+.num-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.num-col button {
+    margin: 5px;
+    width: 70px;
+    font-size: 16pt;
 }
